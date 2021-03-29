@@ -7,6 +7,9 @@
   "scripts": {
     "build": "rimraf dist && tsup src/index.ts --format cjs --dts --external vue,@vue/composition-api"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@vue/composition-api": "^1.0.0-rc.5",
     "rimraf": "^3.0.2",
